@@ -1,2 +1,2 @@
-# finguard-financial-intelligence
-Financial intelligence and early-warning decision system for banks and NBFCs using risk prediction, forecasting, stress testing, and prescriptive analytics.
+# fintech-fraud-risk-optimization
+Financial fraud detection and risk optimization using behavioral features, machine learning, and cost-sensitive threshold selection.
