@@ -1,2 +1,2 @@
 # fintech-fraud-risk-optimization
-Financial fraud detection and risk optimization using behavioral features, machine learning, and cost-sensitive threshold selection.
+Cost-sensitive financial fraud detection system with behavioral feature engineering, risk-aware threshold optimization, and model evaluation for imbalanced transaction data.
