@@ -1,0 +1,42 @@
+# ---- data ------------------------------------------------------------------
+# The raw PaySim CSV is ~470 MB. GitHub rejects files over 100 MB, and a
+# portfolio repo should ship code and findings, not the dataset. Anyone can
+# re-download it using data/README.md.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.csv
+*.parquet
+*.zip
+
+# ---- generated outputs -----------------------------------------------------
+# Figures are kept so the README renders on GitHub. Bulk result files are not.
+outputs/dashboard_data/*.csv
+outputs/model_results/*.json
+outputs/model_results/*.csv
+*.joblib
+*.pkl
+
+# ---- python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+*.egg-info/
+
+# ---- secrets ---------------------------------------------------------------
+.env
+*.pgpass
+
+# ---- editors / OS ----------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- dashboards ------------------------------------------------------------
+*.pbix.bak
